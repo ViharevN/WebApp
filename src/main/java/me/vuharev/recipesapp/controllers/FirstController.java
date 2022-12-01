@@ -17,6 +17,7 @@ public class FirstController {
 
     }
 
+
     @GetMapping("/")
     public String home() {
         return "Приложение запущено";
